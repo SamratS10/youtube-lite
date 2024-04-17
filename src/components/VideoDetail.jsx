@@ -21,7 +21,7 @@ const VideoDetail = () => {
   },[id,videoDetails?.snippet?.channelId])
   return (
     <div className="flex flex-col md:flex-row">
-      <div className="w-[100%] md:w-[60%] m-3 flex-1">
+      <div className="w-[90%] md:w-[60%] m-3 flex-1">
         <div>
           <iframe width="100%" 
           height="500" 
