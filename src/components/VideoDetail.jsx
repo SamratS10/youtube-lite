@@ -55,8 +55,8 @@ const VideoDetail = () => {
           </div>
       </div>
       <ul className=" overflow-y-auto h-screen md:w-[35%]">
-        {videoComments.length===undefined && <p>No Comments for this video</p>}
-        {videoComments.length!==undefined && videoComments.map((each)=><Comments key={videoComments?.id} comments={each}/>)
+        {videoComments===undefined && <p>No Comments for this video</p>}
+        {videoComments!==undefined && videoComments.map((each)=><Comments key={videoComments?.id} comments={each}/>)
         }
       </ul>
     </div>
